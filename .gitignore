@@ -3,6 +3,7 @@ venv/
 env/
 ENV/
 .venv
+.gc/
 
 # Python
 __pycache__/
@@ -29,6 +30,17 @@ wheels/
 # Environment variables
 .env
 .env.local
+.env.*.local
+
+# Credentials and API keys
+credentials.json
+service-account*.json
+*-credentials.json
+*service-account*.json
+*key*.json
+*-*[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].json
+# Google Cloud service account keys (pattern: project-name-*-hash.json)
+*capstone*.json
 
 # IDE
 .vscode/
