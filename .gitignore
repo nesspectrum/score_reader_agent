@@ -4,6 +4,10 @@ env/
 ENV/
 .venv
 .gc/
+.gc
+
+# Jupyter Notebooks
+*.ipynb
 
 # Python
 __pycache__/
