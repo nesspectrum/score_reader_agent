@@ -142,14 +142,6 @@ Import PDMX data into your local library:
 python create_pdmx_library.py --sample-size 1000
 ```
 
-## 📚 Documentation
-
-- [Environment Setup](./ENV_SETUP.md) - Detailed environment configuration
-- [PDMX Datastore Setup](./PDMX_DATASTORE_SETUP.md) - Setting up Vertex AI Search
-- [HOMR Integration](./HOMR_INTEGRATION.md) - Image to MusicXML conversion
-- [Tools and Sub-Agents](./TOOLS_AND_SUB_AGENTS.md) - Architecture documentation
-- [Git Setup](./GIT_SETUP.md) - Repository and SSH configuration
-
 ## 🎯 Key Capabilities
 
 ### Music Sheet Conversion
