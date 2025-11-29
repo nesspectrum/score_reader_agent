@@ -413,7 +413,7 @@ async def run_extraction_workflow(args):
 
 async def main():
     parser = argparse.ArgumentParser(
-        description="Sheet Reader Agent - Music Assistant and Extraction Workflow",
+        description="Score Reader Agent - Music Assistant and Extraction Workflow",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

@@ -1,5 +1,5 @@
 """
-Utility scripts for the Sheet Reader Agent project.
+Utility scripts for the Score Reader Agent project.
 
 This package contains various utility scripts for:
 - Database setup and management

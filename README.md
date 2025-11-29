@@ -1,4 +1,4 @@
-# 🎵 Sheet Reader Agent
+# 🎵 Score Reader Agent
 
 An intelligent AI-powered music assistant that converts music sheet images to MusicXML format, searches extensive music databases, and manages your digital music library using Google's Agent Development Kit (ADK).
 
@@ -23,8 +23,8 @@ An intelligent AI-powered music assistant that converts music sheet images to Mu
 
 1. **Clone the repository:**
    ```bash
-   git clone git@github.com:nesspectrum/sheet-reader-agent.git
-   cd sheet-reader-agent
+   git clone git@github.com:nesspectrum/score_reader_agent.git
+   cd score_reader_agent
    ```
 
 2. **Create virtual environment:**
@@ -92,7 +92,7 @@ python main.py --file /path/to/music-sheet.png
 ## 🏗️ Project Structure
 
 ```
-sheet-reader-agent/
+score_reader_agent/
 ├── agents/              # AI agents
 │   ├── music_assistant.py    # Main music assistant agent
 │   ├── library_agent.py      # Library management agent

@@ -4,7 +4,7 @@
 set -e
 
 echo "=========================================="
-echo "Google Cloud Setup for Sheet Reader Agent"
+echo "Google Cloud Setup for Score Reader Agent"
 echo "=========================================="
 echo ""
 
@@ -46,7 +46,7 @@ read -p "Do you want to create an API key for Gemini API? (y/n) " -n 1 -r
 echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "🔑 Creating API key..."
-    KEY_NAME="sheet-reader-agent-$(date +%s)"
+    KEY_NAME="score_reader_agent-$(date +%s)"
     
     # Create API key
     gcloud alpha services api-keys create \
