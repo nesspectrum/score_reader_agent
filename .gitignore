@@ -8,6 +8,7 @@ ENV/
 
 # Jupyter Notebooks
 *.ipynb
+.ipynb_checkpoints/
 
 # Python
 __pycache__/
